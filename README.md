@@ -79,9 +79,6 @@ Generates unique, integer surrogate keys for dimension tables to decouple the an
 
 ---
 
-## 📸 Architecture Diagram & Data Model
-
----
 
 ## 📂 Project Directory Structure
 
@@ -94,13 +91,11 @@ sql-data-warehouse-project/
 │   └── 03_gold_layer.sql      -- Dimension and Fact Views (Star Schema)
 │
 ├── docs/
-│   ├── architecture_diagram.png -- Visual diagram of Data Pipeline & Model
-│   └── data_dictionary.md       -- Detailed field mappings & metadata
+│   ├── gold dim customer view.png 
+│   ├── overview.png
+│   ├── silver load customer info.png
+│   ├── silver load product info .png
 │
-├── power_bi/                  -- (Optional) Power BI Report (.pbix)
-│   └── sales_analytics.pbix
-│
-├── .gitignore
 └── README.md                  -- Main project documentation
 
 ```
@@ -121,10 +116,6 @@ EXEC silver.load_silver;
 
 
 * Run `scripts/03_gold_layer.sql` to construct the Gold analytical views.
-
-
-3. **Connect BI Tools**:
-Connect Power BI or Tableau to the `gold` views (`gold.dim_customers`, `gold.dim_products`, `gold.fact_sales`).
 
 ---
 
