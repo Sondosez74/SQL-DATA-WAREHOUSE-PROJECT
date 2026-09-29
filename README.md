@@ -126,6 +126,4 @@ EXEC silver.load_silver;
 * **ETL Processes**: Stored Procedures, Window Functions, DDL/DML, Error Handling (`TRY...CATCH`)
 * **Version Control**: Git & GitHub
 
-```
 
-```
