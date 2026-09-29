@@ -1,4 +1,3 @@
-إليك كود الـ **`README.md`** بالكامل داخل مربع كود موحد لتتمكن من نسخه بضغطة زر واحدة (Copy) ولصقه مباشرة في الملف:
 
 ```markdown
 # 📊 Enterprise Sales Data Warehouse (Medallion Architecture)
